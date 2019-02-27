@@ -26,6 +26,10 @@ a {
   text-decoration: none;
 }
 
+p {
+  margin-bottom: 0.75rem;
+}
+
 li {
   list-style: none;
 }
@@ -159,7 +163,20 @@ img {
 }
 
 /* Section A */
-
+#section-a .items .section-a-image {
+  background: url("../img/man.jpg") no-repeat top center/cover;
+  height: 300px;
+}
 /* Section B */
+#section-b .contact-form {
+  padding: 1rem;
+}
+#section-b .contact-form input,
+#section-b .contact-form textarea {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  margin-top: 1rem;
+}
 
 /* Footer */
