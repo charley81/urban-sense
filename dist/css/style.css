@@ -51,6 +51,11 @@ img {
   color: #333;
 }
 
+.bg-dark {
+  background: var(--secondary-color);
+  color: #fff;
+}
+
 .bg-primary {
   background: var(--secondary-color);
   color: var(--secondary-color);
