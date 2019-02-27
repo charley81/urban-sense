@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:100,400,900");
 
 /* CSS Variables */
+:root {
+  --primary-color: rgb(255, 248, 166);
+}
 
 /* Base Elements */
 * {
@@ -16,13 +19,107 @@ body {
   color: #fff;
 }
 
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
 /* Utility Classes */
+.container {
+  max-width: 900px;
+  padding: 0 1rem;
+  margin: auto;
+  overflow: hidden;
+}
+
+.bg-light {
+  background: #fff;
+  color: #333;
+}
+
+.bg-primary {
+  background: var(--primary-color);
+  color: #333;
+}
+
+.text-primary {
+  color: var(--primary-color);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.l-heading {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  line-height: 1.1;
+}
+
+.m-heading {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  line-height: 1.1;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+.p-2 {
+  padding: 2rem;
+}
+.p-3 {
+  padding: 3rem;
+}
+
+.py-1 {
+  padding: 1rem 0;
+}
+.py-2 {
+  padding: 2rem 0;
+}
+.py-3 {
+  padding: 3rem 0;
+}
+
+.m-1 {
+  margin: 1rem;
+}
+.m-2 {
+  margin: 2rem;
+}
+.m-3 {
+  margin: 3rem;
+}
+
+.my-1 {
+  margin: 1rem 0;
+}
+.my-2 {
+  margin: 2rem 0;
+}
+.my-3 {
+  margin: 3rem 0;
+}
+
+.btn {
+  background: var(--primary-color);
+  padding: 0.5rem 2rem;
+  border: none;
+  display: inline-block;
+  color: #333;
+  border-radius: 5px;
+  margin: 1rem 0;
+}
 
 /* Showcase */
-#showcase .hero {
-  height: 100vh;
-  background: url(../img/showcase.jpg) no-repeat center center/cover;
-}
 
 /* Section A */
 
