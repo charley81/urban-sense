@@ -1,5 +1,5 @@
 /* Tablet */
-@media (min-width: 501px) {
+@media (min-width: 700px) {
   #section-a .items {
     display: flex;
     height: 400px;
